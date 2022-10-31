@@ -22,7 +22,6 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     padding: 0;
 }
 .barra-navegacion .nav-barr ul li{

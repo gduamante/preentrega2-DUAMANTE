@@ -1,0 +1,395 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+header {
+  background-color: #ff9934;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  z-index: 100;
+  margin-bottom: 5px; }
+  header .barra-navegacion {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0; }
+    header .barra-navegacion .menu_icon, header .barra-navegacion nav_input {
+      display: none;
+      z-index: 9999; }
+    header .barra-navegacion .nav-barr ul li {
+      text-decoration: none;
+      list-style: none;
+      display: inline-block; }
+      header .barra-navegacion .nav-barr ul li a {
+        color: #003865;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+        display: inline-block;
+        justify-content: space-between;
+        align-items: center;
+        text-decoration: none;
+        list-style: none;
+        padding: 5px 30px 5px 30px; }
+  header .logo {
+    width: auto;
+    height: auto;
+    margin: 5px; }
+    header .logo:hover {
+      transform: scale(1.1);
+      transition: 0.4s; }
+
+main .banner img {
+  position: relative;
+  width: 100%;
+  height: 100%; }
+
+main .banner btn2 {
+  position: relative;
+  top: 50%;
+  display: block;
+  margin: auto;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  justify-content: center;
+  border: 3px solid #003865;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #003865;
+  background-color: #f4932a;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  align-items: center; }
+  main .banner btn2:hover {
+    cursor: pointer;
+    background-color: #ff9934;
+    color: #003865;
+    transition: all 0.2s;
+    font-weight: 600;
+    transition: 1s;
+    transform: scale(1.2); }
+
+main .consultas {
+  display: flex;
+  justify-content: center;
+  top: auto;
+  margin: 35px auto; }
+  main .consultas div {
+    margin: 25px;
+    border: 2px solid #003865;
+    border-radius: 5px;
+    background-color: white;
+    width: 300px;
+    height: auto;
+    color: black;
+    box-shadow: 0px 5px 10px 0px;
+    overflow: hidden;
+    transition: all 0.5s;
+    text-align: center; }
+    main .consultas div:hover {
+      box-shadow: 5px 10px 20px 5px 0.5;
+      transform: scale(1.08); }
+    main .consultas div img {
+      width: 298px;
+      height: 298px;
+      padding: 4px; }
+    main .consultas div h4 {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 20px;
+      font-weight: 900;
+      text-align: center;
+      color: #003865; }
+    main .consultas div p {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 100;
+      padding: 6px; }
+    main .consultas div a {
+      color: #ff9934;
+      background-color: #003865;
+      padding: 5px 25px;
+      margin-top: 3px;
+      margin-bottom: 3px;
+      border: 1px;
+      border-radius: 3px;
+      border-color: #ff9934;
+      text-decoration: none;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 18px;
+      font-weight: bold;
+      text-align: center;
+      display: inline-block;
+      justify-items: center;
+      text-align: center; }
+      main .consultas div a:hover {
+        background-color: #ff9934;
+        color: #003865; }
+
+main .hero {
+  height: 100%;
+  display: flex;
+  justify-content: center; }
+  main .hero .recuadro {
+    width: 450px;
+    height: auto;
+    border: 3px solid #003865;
+    border-radius: 10px;
+    margin-top: 125px;
+    margin-bottom: 45px; }
+    main .hero .recuadro ::-webkit-inner-spin-button {
+      appearance: none; }
+    main .hero .recuadro .formulario {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 400;
+      color: #003865;
+      padding: 25px;
+      margin: auto;
+      display: flex;
+      justify-content: center; }
+      main .hero .recuadro .formulario input {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        width: 100%;
+        margin: 5px; }
+      main .hero .recuadro .formulario .tipo-de-consulta .opcion {
+        display: flex;
+        justify-content: space-between; }
+      main .hero .recuadro .formulario .tipo-de-consulta h4 {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 20px;
+        font-weight: 900;
+        text-align: center;
+        color: #003865; }
+    main .hero .recuadro div textarea {
+      width: 100%;
+      margin-top: 15px;
+      margin-bottom: 15px; }
+    main .hero .recuadro .btn3 {
+      background-color: #ff9934;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 14px;
+      font-weight: 600;
+      text-align: center;
+      width: 100%;
+      margin: auto; }
+      main .hero .recuadro .btn3:hover {
+        color: white;
+        background-color: #003865;
+        cursor: pointer; }
+  main .hero h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 900;
+    text-align: center;
+    color: #003865;
+    padding: 15px; }
+  main .hero .mapaYvideo {
+    width: auto;
+    height: auto;
+    border: 2px solid #ff9934;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    justify-content: center; }
+    main .hero .mapaYvideo h5 {
+      padding-left: 20px;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 20px;
+      font-weight: 900;
+      text-decoration: underline; }
+    main .hero .mapaYvideo h4 {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 20px;
+      font-weight: 900;
+      padding-left: 20px; }
+    main .hero .mapaYvideo p {
+      padding: 5px 0px 20px 20px;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 16px; }
+    main .hero .mapaYvideo .mapa {
+      padding-right: 10px; }
+
+main .galeria {
+  width: 100%;
+  margin-bottom: 30px;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 250px;
+  gap: 15px; }
+  main .galeria .grid-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px; }
+    main .galeria .grid-item:hover > .capa {
+      opacity: 1;
+      visibility: visible;
+      transition: all 0.5s; }
+    main .galeria .grid-item .img4 {
+      grid-column: span 2; }
+    main .galeria .grid-item .img6 {
+      grid-row-start: span 2; }
+    main .galeria .grid-item .img8 {
+      grid-row: span 2; }
+    main .galeria .grid-item div img {
+      margin-top: 0px;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: all 1s; }
+    main .galeria .grid-item .capa {
+      position: absolute;
+      top: 0%;
+      width: 100%;
+      height: 100%;
+      background: #003865e1;
+      opacity: 0;
+      visibility: hidden;
+      text-align: center; }
+      main .galeria .grid-item .capa h3 {
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 900;
+        margin-bottom: 5px;
+        margin-top: 25px; }
+      main .galeria .grid-item .capa p {
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        inline-size: 15px;
+        width: 100%;
+        padding: 25px;
+        align-items: center; }
+      main .galeria .grid-item .capa a {
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        width: 100%;
+        text-decoration: none; }
+
+main #carouselExampleIndicators {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  top: 60px; }
+
+main .nosotros {
+  border: 2px solid white;
+  display: flex;
+  align-items: center; }
+  main .nosotros img {
+    margin-top: 70px;
+    margin-left: 25px;
+    width: 400px;
+    height: auto; }
+  main .nosotros h5 {
+    top: 170px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    text-decoration: underline;
+    padding: 25px 5px 10px 20px; }
+  main .nosotros p {
+    padding: 20px 45px 20px 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px; }
+
+footer {
+  position: relative;
+  width: 100%;
+  background-color: #003865;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 35px 25px 25px; }
+  footer .derechos .parrafo {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 400; }
+  footer h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 900;
+    color: white; }
+  footer .links-internos ul li {
+    list-style: none;
+    font-size: 12px; }
+    footer .links-internos ul li a {
+      color: white;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 400;
+      text-decoration: none;
+      list-style: none; }
+  footer .iconos .links {
+    align-items: center; }
+    footer .iconos .links li {
+      font-family: 'Open Sans', sans-serif;
+      color: white;
+      font-size: 12px;
+      list-style: none;
+      display: flex;
+      align-items: center; }
+      footer .iconos .links li a {
+        text-decoration: none;
+        color: white; }
+
+@media screen and (max-width: 768px) {
+  header {
+    height: 50px; }
+  .nav_input:checked ~ .nav-barr {
+    display: block;
+    text-align: left;
+    top: 50px;
+    color: white; }
+  .menu_icon {
+    display: block;
+    cursor: pointer; }
+  .nav-barr {
+    top: 50px;
+    display: none;
+    position: absolute;
+    background-color: #e37600;
+    width: 100%;
+    height: 100vh; }
+  header .barra-navegacion .nav-barr ul li {
+    display: block;
+    color: white; }
+  .galeria {
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: 200px; }
+  .grid-item {
+    grid-column: span 3;
+    grid-row: span 1; }
+  .consultas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto; }
+  .nosotros {
+    display: block;
+    justify-content: center; }
+  .mapaYvideo {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin: 10px; }
+  .mapa {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center; }
+  .video {
+    width: auto;
+    height: auto; } }
